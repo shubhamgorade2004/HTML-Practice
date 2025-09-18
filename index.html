@@ -88,6 +88,110 @@
             <p> Hello</p>
             <p> Good Morning</p>
         </span>
+
+        <!--List unorder list-->
+        <ul>
+            <li>apple</li>
+            <li>banana </li>
+            <li>lichi</li>
+        </ul>
+
+        <ul>
+            <li>apple</li>
+                <ul>
+                    <li>colour:red</li>
+                    <li>season:winter</li>
+                </ul>
+            <li>banana </li>
+                <ul>
+                    <li>colour:yellow</li>
+                    <li>season:all</li>
+                </ul>
+        </ul>
+
+        <!--order list-->
+        <ol>
+            <li>milk</li>
+            <li>curd</li>
+            <li>butter</li>
+        </ol>
+
+        <ol>
+            <li>milk</li>
+                <ol>
+                    <li>cow milk</li>
+                    <li>buffalo milk</li>
+                </ol>
+        </ol>
+
+        <!--Table-tr row,td data,th heading-->
+        <table>
+            <!--Caption-->
+            <caption> Student Table </caption>
+            <tr>
+                <th> Name</th>
+                <th> Roll no</th>
+            </tr>
+
+            <tr>
+                <td> Shubham</td>
+                <td> 69</td>
+            </tr>
+
+            <tr>
+                <td> Sujal</td>
+                <td> 70</td>
+        </table>
+
+        <!--thead and tbody layout of the table-->
+        <table>
+           <thead>
+            <!--Caption-->
+            <caption> Student Table </caption>
+            <tr>
+                <th colspan="2"> 
+                    Information
+                </th>
+            </tr>
+            <tr>
+                <th> Name</th>
+                <th> Roll no</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> Shubham</td>
+                <td> 69</td>
+            </tr>
+
+            <tr>
+                <td> Sujal</td>
+                <td> 70</td>
+        </table>
+        </tbody>
+        <hr/>
+
+        <!--To create form in the html-->
+        <form>
+            <input typr="text" placeholder="Username">
+            <br/>
+            <input type="password" placeholder="Password">
+        </form>
+        
+        <!--Radio buttons-->
+        <!--lables use for the reader to show here is the button or something and also click on text-->
+        <form>
+            <label for="101">
+                <input type="radio" value="class XI" name="class" id="101"/> class XI
+            </label>
+            <br/>
+            <label for="102">
+                <input type="radio" value="class XII" name="class" id="102"/> class XII
+            </label>
+            <br/>
+        </form>
+
     </main>
 
     <footer>
